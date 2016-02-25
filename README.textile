@@ -39,6 +39,11 @@ On Ubuntu, the *ec2-expire-snapshots* package can be installed directly from the
  sudo apt-get install -y ec2-expire-snapshots
 </pre>
 
+Installing on other distros is possible as long as you install the required dependencies beforehand.
+
+For specific guides (e.g. *CentOS / RHEL*) see the Wiki:
+https://github.com/alestic/ec2-expire-snapshots/wiki
+
 h1. DESCRIPTION
 
 This program deletes expired EBS snapshots of the specified EBS volumes on Amazon EC2. Different expiration strategies and specifications are supported.
